@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(240, 226, 205);
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .main button {
+            width: 150px;
+            height: 50px;
+            border: 3px solid rgb(14, 165, 211);
+            border-radius: 5px;
+            background-color: rgba(18, 176, 224, 0.123);
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+            margin: 200px;
+            transition: transform 0.3s ease 0s;
+        }
+
+        .bt:hover {
+            transform: translateY(-10px) translateX(-10px);
+            background-color: rgb(14, 165, 211);
+            color: white;
+        }
+
+        .m1 {
+            width: 600px;
+            height: 400px;
+            background-color: #DCD9D4;
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), radial-gradient(at 50% 0%, rgba(255, 255, 255, 0.10) 0%, rgba(0, 0, 0, 0.50) 50%);
+            background-blend-mode: soft-light, screen;
+            position: relative;
+            margin-bottom: 100px;
+            margin-left: 100px;
+            box-shadow: 2px 2px 2pc 2px rgb(68, 68, 68);
+            border-radius: 15px;
+            padding: 50px;
+            transition: transform 0.3s ease 0s;
+
+        }
+
+        .m1:hover {
+            transform: translateY(-20px) translateX(20px);
+            box-shadow: 2px 2px 2pc 2px rgba(102, 11, 11, 0.589);
+        }
+
+        .bb {
+            width: 150px;
+            height: 50px;
+            border: 3px solid rgb(211, 14, 14);
+            border-radius: 5px;
+            background-color: rgba(224, 18, 18, 0.123);
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+            margin-top: 40px;
+            margin-left: 440px;
+            transition: transform 0.3s ease 0s;
+        }
+
+        .bb:hover {
+            transform: translateY(-10px) translateX(-10px);
+            background-color: rgb(211, 14, 14);
+            color: white;
+        }
+
+        .m1 p {
+            font-size: 21px;
+            color: rgb(54, 54, 54);
+
+        }
+
+        .m1 h1 {
+            color: rgb(223, 0, 0);
+            text-transform: uppercase;
+        }
+
+        span {
+            background-image: linear-gradient(to right, #463233 0%, #37adbd 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <button class="bt">Transitions</button>
+    </div>
+    <div class="m1">
+        <h1>Lorem ipsum dolor sit amet blanditiis <span>consectetur</span> </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita fugiat maiores deleniti impedit corrupti
+            commodi quod soluta quidem eos assumenda blanditiis culpa natus, ab eveniet, nam amet adipisci distinctio
+            asperiores et numquam ipsum rem nisi sit dolore. Animi, similique asperiores.</p>
+        <button class="bb">More Info</button>
+
+
+    </div>
+</body>
+
+</html>
